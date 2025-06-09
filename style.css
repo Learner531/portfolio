@@ -88,33 +88,38 @@ p{
   
   
   /* CV-Timeline */
-  .timeline {
-    position: relative;
-    padding-left: 40px;
+  
+  .milestones{
+    font-size: 3rem;
   }
-  
-  .timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 20px;
-    width: 2px;
-    height: 100%;
-    background-color: #0d6efd; /* Bootstrap Primary Color */
+
+  #career{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
   }
-  
-  .timeline-item::before {
-    content: '';
-    position: absolute;
-    left: 13px;
-    background-color: #0d6efd;
-    border-radius: 50%;
-    height: 14px;
-    width: 14px;
-    top: 20px;
+
+  /* contact form */
+  #Contact{
+    font-size: 2rem;
+    border-top: 1px solid #343a40;
   }
+  .form-control{
+    font-size: 2rem;
+  }
+  .btn{
+    font-size: 1.5rem;
+    width: 50%;
+  }
+
+  /* Footer */
+ 
   
-  
+  #Footer{
+    border-top: 1px solid black;
+    font-size: 2rem;
+    padding-left: 15px;
+  color: white;
+  }
   
   
   
